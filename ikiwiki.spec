@@ -33,8 +33,6 @@ Requires:       perl(XML::Simple)
 Requires:       perl(CGI::FormBuilder)
 Requires:       perl(CGI::Session)
 
-Requires:       python-docutils
-
 %define cgi_bin %{_libexecdir}/w3m/cgi-bin
 
 

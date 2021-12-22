@@ -90,10 +90,6 @@ Files: IkiWiki/Plugin/polygen.pm IkiWiki/Plugin/pagestats.pm
 Copyright: © 2006 Enrico Zini
 License: GPL-2+
 
-Files: plugins/rst plugins/proxy.py plugins/pythondemo
-Copyright: © martin f. krafft <madduck@madduck.net>
-License: BSD-2-clause
-
 Files: IkiWiki/Plugin/calendar.pm
 Copyright: (c) 2006, 2007 Manoj Srivastava <srivasta@debian.org>
 License: GPL-2+

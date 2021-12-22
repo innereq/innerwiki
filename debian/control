@@ -96,8 +96,6 @@ Suggests:
  libxml-writer-perl,
  po4a (>= 0.35-1),
  polygen,
- python3,
- python3-docutils,
  texlive,
  tidy,
  viewvc | gitweb | viewcvs,
