@@ -15,7 +15,7 @@ BEGIN {
 
 use IkiWiki::Setup::Standard {
 	wikiname => "ikiwiki",
-	srcdir => "doc",
+	srcdir => "docs",
 	destdir => "html",
 	templatedir => "templates",
 	underlaydirbase => "underlays",

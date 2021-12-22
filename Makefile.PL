@@ -46,20 +46,17 @@ PROBABLE_INST_LIB=$(shell \\
 ikiwiki.setup:
 	HOME=/home/me $(PERL) -Iblib/lib $(extramodules) $(tflag) ikiwiki.in --dumpsetup ikiwiki.setup
 
-extra_build: perl_shebangs $(outprogs) ikiwiki.setup docwiki sysconfdir
-	./mdwn2man ikiwiki 1 doc/ikiwiki.md > ikiwiki.man
-	./mdwn2man ikiwiki-mass-rebuild 8 doc/ikiwiki-mass-rebuild.md > ikiwiki-mass-rebuild.man
-	./mdwn2man ikiwiki-makerepo 1 doc/ikiwiki-makerepo.md > ikiwiki-makerepo.man
-	./mdwn2man ikiwiki-transition 1 doc/ikiwiki-transition.md > ikiwiki-transition.man
-	./mdwn2man ikiwiki-update-wikilist 1 doc/ikiwiki-update-wikilist.md > ikiwiki-update-wikilist.man
-	./mdwn2man ikiwiki-calendar 1 doc/ikiwiki-calendar.md > ikiwiki-calendar.man
-	./mdwn2man ikiwiki-comment 1 doc/ikiwiki-comment.md > ikiwiki-comment.man
+extra_build: perl_shebangs $(outprogs) ikiwiki.setup sysconfdir
+	./mdwn2man ikiwiki 1 docs/ikiwiki.md > ikiwiki.man
+	./mdwn2man ikiwiki-mass-rebuild 8 docs/ikiwiki-mass-rebuild.md > ikiwiki-mass-rebuild.man
+	./mdwn2man ikiwiki-makerepo 1 docs/ikiwiki-makerepo.md > ikiwiki-makerepo.man
+	./mdwn2man ikiwiki-transition 1 docs/ikiwiki-transition.md > ikiwiki-transition.man
+	./mdwn2man ikiwiki-update-wikilist 1 docs/ikiwiki-update-wikilist.md > ikiwiki-update-wikilist.man
+	./mdwn2man ikiwiki-calendar 1 docs/ikiwiki-calendar.md > ikiwiki-calendar.man
+	./mdwn2man ikiwiki-comment 1 docs/ikiwiki-comment.md > ikiwiki-comment.man
 	$(MAKE) -C po
 	$(PERL) -pi.bkp -e "s/Version:.*/Version: $(VER)/" ikiwiki.spec
 	rm -f ikiwiki.spec.bkp
-	
-docwiki:
-	$(PERL) -Iblib/lib $(extramodules) $(tflag) ikiwiki.in --setup docwiki.setup --refresh
 
 perl_shebangs: pm_to_blib
 ifneq "$(PERL)" "/usr/bin/perl"
@@ -126,7 +123,7 @@ underlay_install:
 		install -d $(DESTDIR)$(PREFIX)/share/ikiwiki/$$theme; \
 		for file in $$theme/*; do \
 			if echo "$$file" | grep -q style.css; then \
-				(cat doc/style.css; cat $$theme/base.css 2>/dev/null || :; cat $$file) > $(DESTDIR)$(PREFIX)/share/ikiwiki/$$theme/style.css; \
+				(cat themes/default/style.css; cat $$theme/base.css 2>/dev/null || :; cat $$file) > $(DESTDIR)$(PREFIX)/share/ikiwiki/$$theme/style.css; \
 			elif echo "$$file" | grep -q base.css; then \
 				:; \
 			elif [ -f "$$file" ]; then \
@@ -138,18 +135,6 @@ underlay_install:
 	done
 
 extra_install: underlay_install
-	# Install example sites.
-	set -e; \
-	for dir in `$(FIND) doc/examples -type d ! -regex '.*discussion.*' | $(SED) -ne 's|^doc/examples/||p'`; do \
-		install -d $(DESTDIR)$(PREFIX)/share/ikiwiki/examples/$$dir; \
-	done
-	set -e; \
-	for file in `$(FIND) doc/examples -type f ! -regex '.*discussion.*' | $(SED) -ne 's|^doc/examples/||p'`; do \
-		if ! cp -pRL doc/examples/$$file $(DESTDIR)$(PREFIX)/share/ikiwiki/examples/$$file 2>/dev/null; then \
-			install -m 644 doc/examples/$$file $(DESTDIR)$(PREFIX)/share/ikiwiki/examples/$$file; \
-		fi; \
-	done
-
 	set -e; \
 	for dir in `$(FIND) templates -follow -type d`; do \
 		install -d $(DESTDIR)$(PREFIX)/share/ikiwiki/$$dir; \
