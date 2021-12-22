@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="anarcat"
- avatar="http://cdn.libravatar.org/avatar/825d3c30cb96a053b5335e51b8d0bd49"
- subject="i sign stuff"
- date="2021-09-29T14:15:44Z"
- content="""
-i try to sign my comments, but don't generally put a date, out of lazyness. i also link to comments/bugs/forum posts i did in [[users/anarcat]], thanks to ikiwiki's awesomeness. not sure about formalizing this... while it would be great to see who's who, i'm not sure how that could be enforce significantly, especially without patching ikiwiki, which is hard.
-"""]]

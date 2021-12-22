@@ -1,7 +1,0 @@
-Changed the title in Preferences and followed Setup's suggestion that I rebuild blog.
-
-Not changed were any pages titled 'index.html' either in top level directory, or individual Posts' directories.
-
-Signed,
-
-Puzzled in New England

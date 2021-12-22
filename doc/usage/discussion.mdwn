@@ -1,5 +1,0 @@
-Man page does not document "account\_creation\_password". I started to add it, then noticed other configurations are not documented in the manual page either. --[[JeremyReed]]
-
-The description of "--dumpsetup" says that it dumps the current configuration. For me, it always dumps the same blank/initial/default configuration. For example, "wikiname" is always "wiki". This is after changing my setup file and running ikiwiki --setup. FWIW ...--[[KarlBerry]]
-
-> You need to use `--dumpsetup` at the same time as specifying your setup, i.e. `ikiwiki --setup input-setup-file --dumpsetup output-setup-file`, or `ikiwiki [ configuration flags on command line instead of setup file ] --dumpsetup output-setup` *— [[Jon]] 2020-06-23*

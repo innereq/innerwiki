@@ -1,9 +1,0 @@
-Hey
-
-Not sure if this is the right place, but [[todo/admonitions]] didn't feel right, so here we go.
-
-I just upgraded my home server (which is where i'm running ikiwiki) to bullseye, and had to rebase everything onto `3.20200202.3-1`. So you should be able to get all those branches, again rebased on that tag, on my git repo: https://gitlab.com/anarcat/ikiwiki.git. The `deploy` branch has all those branches merged, and the `master` branch is the branch point, basically `3.20200202.3-1`.
-
-I hope that will help you sort through my patches! :) -- [[anarcat]] 2021-10-05
-
-> Hi! This is a good a place as any. Thanks for letting me know! *— [[Jon]], 2021-10-15*

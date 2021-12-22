@@ -1,1 +1,0 @@
-Do issue `titles` *support* _Markdown_ or are [they](https://fsf.org) plain <i>text</i>

@@ -1,3 +1,0 @@
-Hi,
-
-Does anyone use a docker image to run Ikiwiki? The most updated image that I found has some issues, such as only working during the first start of the container and always failing to start on subsequent runs. So was wondering if anyone knew of working images.

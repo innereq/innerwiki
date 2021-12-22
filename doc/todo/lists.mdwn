@@ -1,3 +1,0 @@
-* list of all missing pages
-
-  [[todo/done]]

@@ -1,5 +1,0 @@
-[[!template id=plugin name=poll author="[[Joey]]"]]
-[[!tag type/widget]]
-
-This plugin provides the [[ikiwiki/directive/poll]] [[ikiwiki/directive]],
-which allows inserting an online poll into a page.

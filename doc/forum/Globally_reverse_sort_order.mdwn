@@ -1,1 +1,0 @@
-Is it possible to globally reverse sort order? I'd like oldest posts to appear first across the board, eg, in tags, posts, blog.

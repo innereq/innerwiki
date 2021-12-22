@@ -1,2 +1,0 @@
-Disabling [[plugins/theme]] should trigger a site rebuild, just as enabling it does.
-In particular when performing the operation via the [[plugins/websetup]] front-end. *— [[Jon]], 2021-01-05*

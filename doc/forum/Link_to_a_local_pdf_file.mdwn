@@ -1,1 +1,0 @@
-How can I make a link to a local file (for example a pdf file) in ikiwiki?

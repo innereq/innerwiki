@@ -1,9 +1,0 @@
-sparkline.org no longer hosts the php sparkline software. it redirects to a personal website which points people at github for their projects, and that list does not include sparkline.
-
-php5 is no longer available in Debian stable (or oldstable).
-
-the libphp-sparkline package is broken with php7 CLI (it redefines "Object" which is now reserved).
-
-Perhaps reverting to the Perl sparkline would make sense now? — [[Jon]]
-
-> oh, now I see [[bugs/remove orphaned sparkline-php from Suggests]].

@@ -1,3 +1,0 @@
-These plugins control how ikiwiki displays dates.
-
-[[!map pages="plugins/* and tagged(.)"]]

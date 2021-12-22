@@ -1,9 +1,0 @@
-Hello,
-
-I'm trying to install and setup an ikiwiki in a fully automated way (using ansible, for info), and I'd like to know if it's possible to have an automated [setup](https://ikiwiki.info/setup/) step ( `ikiwiki --setup /etc/ikiwiki/auto.setup` ).
-
-Apparently I can reassign all variables in the .setup file or even on the command line, but if I set `$admin` to a certain value it keeps prompting me for a password. So :
-
-- can I set the admin password somewhere in the .setup file or on the command line ?
-
-- if I can't, can I avoid setting any (and re-define one maybe later) ?

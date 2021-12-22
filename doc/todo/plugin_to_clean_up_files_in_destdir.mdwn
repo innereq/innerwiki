@@ -1,6 +1,0 @@
-By default, IkiWiki will leave any existing files in the destination directory alone.
-
-In some circumstances (a force push being one), files that IkiWiki did once generate can be left behind in the destination directory if it no longer does.
-
-Since IkiWiki generates a list of all destination file paths that it is responsible for, a plugin (armed with that knowledge) could identify the files it *isn't* responsible for, too, and clean them up. This would be useful if the user wishes to keep a 1:1 correspondence between source and destination directories.
- *—[[Jon]], 2021-02-07*

@@ -1,5 +1,0 @@
-Mark Jason Dominus / `yrlnry` (on IRC) / [[Ikiwiki git repo|https://github.com/mjdominus/ikiwiki]]
-
-* [[blog|http://blog.plover.com/]]
-* [[CPAN|https://metacpan.org/author/MJD]]
-* [[math.stackexchange|http://math.stackexchange.com/users/25554/mjd]]

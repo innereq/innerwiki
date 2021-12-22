@@ -1,6 +1,0 @@
-[ the precise circumstances around which this can happen are still being nailed down ]
-
-[[plugins/remove]] says:
-> Users can only remove things that they are allowed to edit or upload.
-
-This permits a logged-in user to remove comments by other users, which might be unexpected. *&mdash; [[Jon]], 2021-09-30*

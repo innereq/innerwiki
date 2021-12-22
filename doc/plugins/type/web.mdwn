@@ -1,3 +1,0 @@
-These plugins enhance the web interface.
-
-[[!map pages="plugins/* and tagged(.)"]]

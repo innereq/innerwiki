@@ -1,4 +1,0 @@
-This is something I'm probably going to patch into my own instances: some kind of
-logging of comment moderation actions, particularly Deny. This is so I have something
-I can point fail2ban at. (See also: [[allow banning a user when moderating a comment]],
-[[anti-spam protection]]). *— [[Jon]], 2021-11-25*

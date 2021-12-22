@@ -1,7 +1,0 @@
-Hello,
-
-I'm trying to set up an internal wiki at work using the git repos we already have, and I'd like to set up LDAP authentication to connect to ikiwiki.
-
-I see that ikiwiki [can use the unix accounts of the underlying system](https://ikiwiki.info/plugins/contrib/unixauth/), so I should be able to have LDAP authentication via NSS or PAM, but those only work if the LDAP user entries have the attribute 'objectClass: posixAccount' (unless I'm doing it wrong). My  LDAP entries have the 'uid', 'userPassword' and 'mail' attributes and I guess this should theoretically be enough since other applications can use it (like gitlab).
-
-What are my options ?

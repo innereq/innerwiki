@@ -1,3 +1,0 @@
-These plugins provide core functionality and are enabled by default.
-
-[[!map pages="plugins/* and tagged(.)"]]

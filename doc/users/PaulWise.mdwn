@@ -1,2 +1,0 @@
-* Contributions: [[plugins/headinganchors/]] [[plugins/contrib/siterel2pagerel/]]<br>
-* Homepage: <https://bonedaddy.net/pabs3/>

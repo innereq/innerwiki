@@ -1,3 +1,0 @@
-[[!meta title="Richard Braakman"]]
-
-Lars Wirzenius convinced me to try ikiwiki for blogging :)

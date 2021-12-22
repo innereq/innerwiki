@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="jmtd"
- avatar="http://cdn.libravatar.org/avatar/2a3bcb34947fceef61560bd8a2931957"
- subject="comment 2"
- date="2020-04-21T15:17:31Z"
- content="""
-As per a comment by [[users/smcv]] at [[templates/discussion|templates/discussion]], I believe a plugin is required to provide an appropriate template variable. You would also need to define a separate templates directory for your wiki in your setup file, with a copy of`page.tmpl` to override IkiWiki's, with the correct `<TMPL_VAR foo>` added to it, to use the variable you defined in the plugin. I'm looking at doing this. — [[users/Jon]]
-"""]]

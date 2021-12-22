@@ -1,1 +1,0 @@
-I have set up ikiwiki on my FreedomBox and created a new blog. This comes with two initial blog posts which I would like to delete. Now my question is how to delete those pages?

@@ -1,3 +1,0 @@
-Stig Sandbeck Mathisen has a [web page somewhere](http://fnord.no).
-
-Somewhat fond of perl, ikiwiki and varnish, and wrote the [[plugins/contrib/purge]] plugin to glue them together.

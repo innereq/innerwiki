@@ -1,3 +1,0 @@
-Using one of the strategies described here: http://stackoverflow.com/questions/6333814/ ... we could support copying/pasting images from the clipboard (in supported browsers).
-
-[[!tag wishlist]]

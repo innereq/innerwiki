@@ -1,5 +1,0 @@
-[Martina Ferrari](https://tina.pm/blog/)
-
-Also Tina @debian, and OFTC and Libera IRC networks. NightTsarina in Github, Twitter, and other places.
-
-Long time user of ikiwiki. Made a [rewrite](https://tina.pm/blog/posts/OSM_in_IkiWiki/) of the OSM plugin, still pending merge.

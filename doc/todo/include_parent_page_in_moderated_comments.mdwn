@@ -1,1 +1,0 @@
-Within the CGI form for moderating comments, it would be useful to have more contextual information about a comment, in particular the page to which it would be attached were it to be approved. *— [[Jon]], 2020-06-01*

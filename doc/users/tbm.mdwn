@@ -1,3 +1,0 @@
-[[!meta title="Martin Michlmayr"]]
-
-Currently trying to convert [my homepage](http://www.cyrius.com/) to ikiwiki.

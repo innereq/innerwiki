@@ -1,7 +1,0 @@
-The responsive_layout option (which flags ikiwiki pages as not broken on small displays) is not applied in edit mode (or other CGI generated pages).
-
-This can be verified easily by checking the meta tags in the pages's source or using Firefox's page info (Ctrl-i), which contains a `width=device-width, initial-scale=1` viewport option in rendered pages but not the editing.
-
-As a result, page editing from mobile is tedious, as it involves scrolling around not only in the edit window but also the scrolled page as a whole.
-
-I've given it a try with a local copy of a saved page into which the meta was edited, and the page could be edited much more smoothly on mobile when the meta was set on the edit page (as was expected -- it works well on the regular pages, after all). There was still some scrolliness due to the large width of the commit message field, but that could be a bug in the used theme and even so does not limit the usefulness of setting this on *all* generated pages as long as the theme is basically responsive.

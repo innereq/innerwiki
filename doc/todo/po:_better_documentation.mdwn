@@ -1,3 +1,0 @@
-Maybe write separate documentation for the po plugin, depending on the
-people it targets:  translators, wiki administrators, hackers. This
-plugin may be complex enough to deserve this.

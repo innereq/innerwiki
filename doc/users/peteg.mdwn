@@ -1,7 +1,0 @@
-I'm adding some plugins to Ikiwiki to support a bioacoustic wiki. See here:
-
-<http://bioacoustics.cse.unsw.edu.au/wiki/>
-
-Personal home page:
-
-<http://peteg.org/>

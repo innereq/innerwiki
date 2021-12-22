@@ -1,1 +1,0 @@
-![ikiwiki logo](http://wiki.ondioline.org/ikiwiki.png) The logo I'm using on my ikiwiki installation. -- Paul Collins

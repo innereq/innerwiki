@@ -1,1 +1,0 @@
-Mmmm... i see. But it not setup under FreeBSD without magic manual passes.

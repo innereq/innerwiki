@@ -1,3 +1,0 @@
-[[!meta redir=/ikiwiki/directive/tag]]
-
-[[!meta robots="noindex, follow"]]

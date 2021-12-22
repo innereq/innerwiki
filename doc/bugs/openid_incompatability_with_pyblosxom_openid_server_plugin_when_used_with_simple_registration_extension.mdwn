@@ -1,3 +1,0 @@
-This bug is described here:
-
-<http://kitenet.net/~joey/blog/entry/OpenID/discussion/>

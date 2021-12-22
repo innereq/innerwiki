@@ -1,3 +1,0 @@
-These plugins provide ways to format text on wiki pages.
-
-[[!map pages="plugins/* and tagged(.)"]]

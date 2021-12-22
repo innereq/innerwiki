@@ -1,3 +1,0 @@
-These plugins enable whole bundles of other plugins.
-
-[[!map pages="plugins/* and tagged(.)"]]

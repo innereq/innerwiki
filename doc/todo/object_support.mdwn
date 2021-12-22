@@ -1,3 +1,0 @@
-[[!template id=gitbranch branch=GiuseppeBilotta/obj author="[[GiuseppeBilotta]]"]]
-
-I have created a rather straightforward adaptation of the `img` directive to implement `object` support. The intended use case is to allow inclusion of SVG images that use interaction and/or load external resources, which are not supported in modern browsers via the `img` tag because security. The new directive is called `obj`, and it's implemented as part of the `img` plugin. The patch implementing it is available in my `obj` branch

@@ -1,5 +1,0 @@
-The [[/plugins/contrib/asciidoc]] page describes an enhanced version of the AsciiDoc plugin, but the link to it isn't live anymore.
-
-Would anyone happen to have a copy of the enhanced plugin?
-
-Thanks

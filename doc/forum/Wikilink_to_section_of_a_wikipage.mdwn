@@ -1,1 +1,0 @@
-Is it possible to link directly to a specific section of another ikiwiki-page? 

@@ -1,3 +1,0 @@
-[[tagging]] should be in this list, since it is tagged 'foo':
-
-[[!inline pages="tagged(foo)" archive="yes"]]

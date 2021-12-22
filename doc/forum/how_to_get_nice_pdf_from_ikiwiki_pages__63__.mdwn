@@ -1,3 +1,0 @@
-Is there a way to make nice printable pages out of ikiwiki? Preferably pdfs.
-
-marius

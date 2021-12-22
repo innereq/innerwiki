@@ -1,5 +1,0 @@
-[[!template id=plugin name=fast-pandoc author="gnoutchd"]]
-
-Renders .mdwn files with [Pandoc](https://pandoc.org/).  A primitive but potentially faster alternative to [[pandoc]], written in Haskell as an [[external|/plugins/write/external/]] (XML-RPC) plugin.
-
-Find it at <http://code.softwarefreedom.org/cgit/ikiwiki-fast-pandoc/> or <https://github.com/gnoutchd/ikiwiki-fast-pandoc>.

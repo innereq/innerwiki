@@ -1,3 +1,0 @@
-email: weakish@gmail.com
-
-website: <http://weakish.github.com>

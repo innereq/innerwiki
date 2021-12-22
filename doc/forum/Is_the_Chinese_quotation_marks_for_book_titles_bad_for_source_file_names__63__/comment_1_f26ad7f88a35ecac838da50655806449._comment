@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="jmtd"
- avatar="http://cdn.libravatar.org/avatar/2a3bcb34947fceef61560bd8a2931957"
- subject="wiki_file_chars"
- date="2021-01-14T10:28:48Z"
- content="""
-Check the `wiki_file_chars` value in your setup file. You can add characters to it in order to allow them in filenames.
-"""]]

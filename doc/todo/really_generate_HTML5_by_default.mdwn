@@ -1,5 +1,0 @@
-[[generate HTML5 by default]] exists and is marked *done* because we are now in a halfway-house where some HTML5 stuff (including the DTD) are emitted by default but most of the structural elements are not used and we have div soup. This page is a bug to request that we *really* move to HTML5 by default, specifically as a precursor to removing all the branching around this parameter that exists in the templates. Once the HTML5-by-default situation is settled, we could remove all that branching and then address generating HTML4.1 (or whatever) via a post-process DOM transformation plugin.
-
-It's been 10 years since the HTML5 option was added. At the time there was some concern about legacy support for IE8. I rather suspect that the number of IE8 ikiwiki users (or ikiwiki users concerned about IE8) approximates zero, today. But if not, perhaps we should [[todo/clarify what browser support is important for IkiWiki]].
-
-*— [[Jon]], 2020-12-30*

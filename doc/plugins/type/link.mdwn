@@ -1,3 +1,0 @@
-These plugins deal with [[WikiLinks|ikiwiki/WikiLink]].
-
-[[!map pages="plugins/* and tagged(.)"]]

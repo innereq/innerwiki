@@ -1,3 +1,0 @@
-`git.pm` is a plugin but lacks a page at [[plugin/git|doc/plugin]]. this would be a good place to
-cover the configuration options it exposes via `getsetup`. — [[Jon]]
- 

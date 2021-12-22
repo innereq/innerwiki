@@ -1,9 +1,0 @@
-Dot is automatically inserted. The htmlext option should be
-
-	#htmlext => 'htm',
-
-instead of 
-
-	#htmlext => '.htm',
-
-> [[done]] --[[Joey]]

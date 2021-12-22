@@ -1,1 +1,0 @@
-Interestingly it does seem to generate the correct HTML, it is just internal uses of the flags like pagespecs that seem not to work. 

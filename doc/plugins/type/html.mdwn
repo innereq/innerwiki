@@ -1,3 +1,0 @@
-These plugins generate or process html.
-
-[[!map pages="plugins/* and tagged(.)"]]

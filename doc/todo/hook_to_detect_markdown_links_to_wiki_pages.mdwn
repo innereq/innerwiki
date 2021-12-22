@@ -1,1 +1,0 @@
-For an internal wiki, we occasionally get patches that link to internal wiki pages using the Markdown link syntax.  I'd love to see an optional git hook to detect that and complain.

@@ -1,3 +1,0 @@
-[[!meta redir=/ikiwiki/directive/cutpaste]]
-
-[[!meta robots="noindex, follow"]]

@@ -1,1 +1,0 @@
-[[!inline pages="sandbox/castle/discussion/* and !sandbox/castle/discussion/*/*" rootpage="sandbox/castle/discussion"]]

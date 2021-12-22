@@ -47,13 +47,13 @@ ikiwiki.setup:
 	HOME=/home/me $(PERL) -Iblib/lib $(extramodules) $(tflag) ikiwiki.in --dumpsetup ikiwiki.setup
 
 extra_build: perl_shebangs $(outprogs) ikiwiki.setup docwiki sysconfdir
-	./mdwn2man ikiwiki 1 doc/usage.mdwn > ikiwiki.man
-	./mdwn2man ikiwiki-mass-rebuild 8 doc/ikiwiki-mass-rebuild.mdwn > ikiwiki-mass-rebuild.man
-	./mdwn2man ikiwiki-makerepo 1 doc/ikiwiki-makerepo.mdwn > ikiwiki-makerepo.man
-	./mdwn2man ikiwiki-transition 1 doc/ikiwiki-transition.mdwn > ikiwiki-transition.man
-	./mdwn2man ikiwiki-update-wikilist 1 doc/ikiwiki-update-wikilist.mdwn > ikiwiki-update-wikilist.man
-	./mdwn2man ikiwiki-calendar 1 doc/ikiwiki-calendar.mdwn > ikiwiki-calendar.man
-	./mdwn2man ikiwiki-comment 1 doc/ikiwiki-comment.mdwn > ikiwiki-comment.man
+	./mdwn2man ikiwiki 1 doc/ikiwiki.md > ikiwiki.man
+	./mdwn2man ikiwiki-mass-rebuild 8 doc/ikiwiki-mass-rebuild.md > ikiwiki-mass-rebuild.man
+	./mdwn2man ikiwiki-makerepo 1 doc/ikiwiki-makerepo.md > ikiwiki-makerepo.man
+	./mdwn2man ikiwiki-transition 1 doc/ikiwiki-transition.md > ikiwiki-transition.man
+	./mdwn2man ikiwiki-update-wikilist 1 doc/ikiwiki-update-wikilist.md > ikiwiki-update-wikilist.man
+	./mdwn2man ikiwiki-calendar 1 doc/ikiwiki-calendar.md > ikiwiki-calendar.man
+	./mdwn2man ikiwiki-comment 1 doc/ikiwiki-comment.md > ikiwiki-comment.man
 	$(MAKE) -C po
 	$(PERL) -pi.bkp -e "s/Version:.*/Version: $(VER)/" ikiwiki.spec
 	rm -f ikiwiki.spec.bkp

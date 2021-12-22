@@ -1,8 +1,0 @@
-[[!comment format=mdwn
- username="jmtd"
- avatar="http://cdn.libravatar.org/avatar/2a3bcb34947fceef61560bd8a2931957"
- subject="comment 3"
- date="2020-04-21T15:20:58Z"
- content="""
-…that's assuming you want a permalink on *every* page, of course. For pages that are [[plugins/inline]]d, I think it's already possible, but I'm not sure exactly how, yet. Further reading of `inlinepage.tmpl` and `inline.pm` are required. — [[Jon]]
-"""]]

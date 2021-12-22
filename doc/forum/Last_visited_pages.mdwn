@@ -1,1 +1,0 @@
-Is it possible to add a list of the n last visited pages on the bottom of each ikiwiki page (or maybe on a sidebar)?

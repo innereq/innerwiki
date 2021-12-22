@@ -1,9 +1,0 @@
-[[!comment format=mdwn
- username="jmtd"
- avatar="http://cdn.libravatar.org/avatar/2a3bcb34947fceef61560bd8a2931957"
- subject="comment 1"
- date="2020-04-02T09:20:13Z"
- content="""
-Coincidentally I was just dusting off an old ikiwiki-in-Docker setup I built 5 years ago - https://github.com/jmtd/debian-docker/tree/ikiwiki
-I'll push an updated version and some images sometime today. — [[Jon]]
-"""]]

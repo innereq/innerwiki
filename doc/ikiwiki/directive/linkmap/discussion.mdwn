@@ -1,1 +1,0 @@
-I would [[like|wishlist]] to be able to create a link map of a PageSpec defined in another directive without having to manually keep the two PageSpecs in sync.  Having a way to name a PageSpec and then a parameter on the linkmap directive to pull in that named PageSpec. 

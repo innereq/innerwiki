@@ -1,8 +1,0 @@
-If you force-push to a source repository that is the configured git repository for the ikiwiki srcdir,
-rebuilding the wiki (after the hook) fails with
-
-    fatal: refusing to merge unrelated histories
-    'git pull --prune origin' failed:  at /usr/local/share/perl/5.28.1/IkiWiki/Plugin/git.pm line 251.
-
-I think that under some circumstances ikiwiki should support this. Perhaps via configuration options
-for the git plugin. — [[Jon]]

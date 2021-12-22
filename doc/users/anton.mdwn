@@ -1,3 +1,0 @@
-[[!meta title="Anton Eliasson"]]
-
-[Anton uses Ikiwiki](https://www.antoneliasson.se/)

@@ -1,5 +1,0 @@
-[[!template id=plugin name=toc author="[[Joey]]"]]
-[[!tag type/widget]]
-
-This plugin provides the [[ikiwiki/directive/toc]] [[ikiwiki/directive]],
-which adds a table of contents to a page.

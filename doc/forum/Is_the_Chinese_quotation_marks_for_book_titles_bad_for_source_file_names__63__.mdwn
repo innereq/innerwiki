@@ -1,9 +1,0 @@
-I have some markdown source files that have Chinese quotation marks for book titles (i.e. `《<some book title>》`). These files do not get build. When I rebuild the site, it complains
-
-```
-...
-skipping bad filename 《<some book title>》.md
-...
-```
-
-Any idea?

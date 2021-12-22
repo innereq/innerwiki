@@ -1,3 +1,0 @@
-ikiwiki's ViewVC, linked on the download page and used for RecentChanges and History, appears down.  --[[JoshTriplett]]
-
-[[fixed|bugs/done]]

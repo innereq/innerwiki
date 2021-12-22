@@ -1,7 +1,0 @@
-(Meant as light-hearted jest)
-
-![cartoon depiction of a stick figure dragging a camel](http://halestrom.net/darksleep/software/minisleep/wikibash_justiki.png)
-
-Thankyou for ikiwiki.  I've stolen some of its ideas over the years, and it's shown me there are better and different ways of doing things.
-
-> This really made me laugh, thank you ☺ — [[Jon]]
